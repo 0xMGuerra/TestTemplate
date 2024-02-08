@@ -1,0 +1,19 @@
+.flex-container {
+  display:flex;
+  width: 100%;
+}
+
+.left-margin, .righ-margin {
+  width: 15%;
+  flex-direction: row;
+}
+
+.left-margin {
+  align-items: flex-start;
+}
+.righ-margin {
+  align-items: flex-end;
+}
+.content {
+  width: 70%;
+}
