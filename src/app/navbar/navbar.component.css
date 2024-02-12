@@ -25,12 +25,21 @@
 .navbar1-items, .navbar2-items {
   display: flex;
 }
+.navbar2-items {
+  justify-content: center;
+  padding-right: 1em;
+}
 
 .left,
 .right,
 center {
   display: flex;
   /*flex: initial;*/
+}
+.center {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 .left {
   margin-right: 10px;
@@ -69,10 +78,14 @@ i {
 }
 .textarea-icon {
   color:black;
+  left: -6%;
+  margin-top: 3%;
+  position: relative;
 }
 .navbar-link {
   text-decoration: none;
   color: inherit;
+  margin-right: 0.5em;
 }
 
 .navbar-link:hover{
