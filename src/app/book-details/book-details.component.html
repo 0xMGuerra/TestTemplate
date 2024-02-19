@@ -1,4 +1,37 @@
 <body>
+  <div class="book">
+    <img class="picture" src="https://m.media-amazon.com/images/I/81sImSY6vvL._AC_UF1000,1000_QL80_.jpg" alt="cover libro">
+
+    <div class="sinopsis">
+      <h1 style="margin: 0px;" >BAJO LA MISMA ESTRELLA</h1>
+      <p class="editorial">DEBOLSILLO- 9788466335362</p>
+      <div class="rating">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <p id="nOpiniones">135 opiniones</p>
+      </div>
+      <p class="title-sinopsis">Sinopsis bajo la misma estrella</p>
+      <p >{{ sinopsisThogle }}</p>
+      <div class="leerMas" (click)="toggleText()">{{ buttonText }}</div>
+    </div>
+
+    <div class="compra">
+      <div class="datosprecio">
+        <p class="precio">16,99€</p>
+        <p class="envio">Envio gratis a partir de 999,99€</p>
+      </div>
+      <button class="añadir-a-la-cesta">Añadir a la cesta</button>
+      <div class="envio-datos">
+        <i class="fa-solid fa-truck"></i>
+        <p class="fecha-deliver">Recibelo el lunes 2 de febrero de 2026</p>
+      </div>
+    </div>
+
+  </div>
+
   <div class="container">
     <div class="line"></div>
     <div class="centered-word">Ficha tecnica</div>
