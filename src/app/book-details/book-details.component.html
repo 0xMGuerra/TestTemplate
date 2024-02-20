@@ -11,7 +11,7 @@
         <i class="fa-solid fa-star"></i>
         <i class="fa-solid fa-star"></i>
         <i class="fa-solid fa-star"></i>
-        <p id="nOpiniones">135 opiniones</p>
+        <p class="nOpiniones">135 opiniones</p>
       </div>
       <p class="title-sinopsis">Sinopsis bajo la misma estrella</p>
       <p >{{ sinopsisThogle }}</p>
@@ -23,7 +23,7 @@
         <p class="precio">16,99€</p>
         <p class="envio">Envio gratis a partir de 999,99€</p>
       </div>
-      <button class="añadir-a-la-cesta">Añadir a la cesta</button>
+      <button class="boton-generico">Añadir a la cesta</button>
       <div class="envio-datos">
         <i class="fa-solid fa-truck"></i>
         <p class="fecha-deliver">Recibelo el lunes 2 de febrero de 2026</p>
@@ -90,5 +90,28 @@
 
   <app-author-details></app-author-details>
 
+  <div class="container">
+    <div class="line"></div>
+    <div class="centered-word">Opiniones sobre BAJO LA MISMA ESTRELLA</div>
+    <div class="line"></div>
+  </div>
+
+  <div class="opiniones">
+    <div class="puntuacion-con-estrellas">
+      <p class="puntuacion-circulo">4,2</p>
+      <div class="estrellas-con-opiniones-column">
+        <div id="rating-opiniones" class="rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <p class="nOpiniones" style="font-size: 15px">135 opiniones</p>
+      </div>
+    </div>
+    <p style="font-size: 18px; margin: 5px">¿Que te ha parecido?</p>
+    <button id="boton-opinion" class="boton-generico"> deja tu opinion</button>
+  </div>
 </body>
 
