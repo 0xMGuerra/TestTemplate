@@ -72,6 +72,7 @@
 }
 
 .boton-generico{
+  padding: 5px ;
   color: #93D497;
   background-color: white;
   font-weight: bold;
@@ -139,6 +140,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 15px;
 }
 
 .puntuacion-circulo{
@@ -155,7 +157,6 @@
 
 #boton-opinion{
   width: 200px;
-  height: 30px;
 }
 .puntuacion-con-estrellas{
   display: flex;
@@ -168,10 +169,30 @@
   padding: 5px;
 }
 
-.nOpiniones{
-
-}
 
 #rating-opiniones{
   font-size: 20px;
+}
+
+.profile-picture{
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+  border: 1px solid gray;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin-bottom: auto;
+  margin-right: 10px;
+}
+
+.cajon-comentarios{
+  display: flex;
+  padding-top: 10px;
+}
+
+.username{
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-weight: bold;
+  color: #7B757E;
 }
