@@ -30,8 +30,9 @@
 .right,
 center {
   display: flex;
-  /*flex: initial;*/
+  flex-direction: row-reverse;
 }
+
 .left {
   margin-right: 10px;
 }
@@ -48,9 +49,18 @@ icon {
 input {
   display: flex;
   width: 400px;
+  border-radius: 40px 40px 40px 40px;
   padding: 8px;
   border: none;
-  border-radius: 4px;
+}
+
+.searchbutton{
+  background-color: white;
+  border: none;
+  border-radius: 0 40px 40px 0;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
 }
 
 .right span{
@@ -68,7 +78,10 @@ i {
   /*margin-right: 5px;*/
 }
 .textarea-icon {
+  /*display: inline-block;*/
+  position: absolute;
   color:black;
+  right: 400px;
 }
 .navbar-link {
   text-decoration: none;
