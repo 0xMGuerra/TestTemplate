@@ -183,6 +183,7 @@
   overflow: hidden;
   margin-bottom: auto;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .cajon-comentarios{
@@ -195,4 +196,5 @@
   margin-top: 5px;
   font-weight: bold;
   color: #7B757E;
+  cursor: pointer;
 }
