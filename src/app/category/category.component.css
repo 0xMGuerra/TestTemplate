@@ -79,8 +79,10 @@ body {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   position:relative;
   width: 20%;
+  height: 40px;
   margin:0;
   padding:0;
+  margin-left: auto;
 }
 
 /* enlaces del menu */
@@ -133,3 +135,8 @@ body {
 #menu ul li:hover {
   background:gray;
 }
+
+.sort{
+  display: flex;
+}
+

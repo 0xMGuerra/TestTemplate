@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './category.component.css'
 })
 export class CategoryComponent {
-
+  tiposDeSort = ['Precio ascendente', 'Precio descendente', "Mas valorados", "Título A-Z", "Título Z-A"];
+  tipoDeSortSeleccionado="Precio ascendente"
 }
