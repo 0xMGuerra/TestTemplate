@@ -1,0 +1,27 @@
+<div class="carousel">
+  <ngx-slick-carousel class="carousel-items" #slickModal="slick-carousel" [config]="slideConfig" (init)="slickInit($event)">
+    @for (slide of slides; track slide.img) {
+      <div ngxSlickItem class="slide">
+        <img src="{{ slide.img }}" alt="{{ slide.title }}" width="50%" height="70%">
+      </div>
+    }
+
+  </ngx-slick-carousel>
+</div>
+<div class="arrow-container">
+  <span class="arrow arrow-prev">
+    <i class="fas fa-chevron-left"></i>
+  </span>
+
+  <span class="arrow arrow-next">
+    <i class="fas fa-chevron-right"></i>
+  </span>
+</div>
+
+<h2>Bestsellers</h2>
+
+@for (book of bestsellers; track book.title) {
+  <div class="bestsellers">
+    <img src="{{ book.img }}" alt=" {{ book.title }}" width="50%" height="70%">
+  </div>
+}
