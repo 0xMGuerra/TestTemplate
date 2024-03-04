@@ -1,0 +1,186 @@
+<body>
+  <div class="book">
+    <img class="picture" src="https://m.media-amazon.com/images/I/81sImSY6vvL._AC_UF1000,1000_QL80_.jpg" alt="cover libro">
+
+    <div class="sinopsis">
+      <h1 style="margin: 0px;" >BAJO LA MISMA ESTRELLA</h1>
+      <p class="editorial">DEBOLSILLO- 9788466335362</p>
+      <div class="rating">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <p class="nOpiniones">135 opiniones</p>
+      </div>
+      <p class="title-sinopsis">Sinopsis bajo la misma estrella</p>
+      <p >{{ sinopsisThogle }}</p>
+      <div class="leerMas" (click)="toggleText()">{{ buttonText }}</div>
+    </div>
+
+    <div class="compra">
+      <div class="datosprecio">
+        <p class="precio">16,99€</p>
+        <p class="envio">Envio gratis a partir de 999,99€</p>
+      </div>
+      <button class="boton-generico">Añadir a la cesta</button>
+      <div class="envio-datos">
+        <i class="fa-solid fa-truck"></i>
+        <p class="fecha-deliver">Recibelo el lunes 2 de febrero de 2026</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container">
+    <div class="line"></div>
+    <div class="centered-word">Ficha tecnica</div>
+    <div class="line"></div>
+  </div>
+
+  <div class="ficha-tecnica">
+    <div class="caracteristicas">
+      <p>Nº de páginas: </p>
+      <p>Editorial: </p>
+      <p>Idioma: </p>
+      <p>Encuadernación: </p>
+      <p>ISBN: </p>
+      <p>Año de edición: </p>
+      <p>Plaza de edición: </p>
+      <p>Traductor: </p>
+    </div>
+    <div class="subdiv">
+      <p>304</p>
+      <p>DEBOLSILLO</p>
+      <p>CASTELLANO</p>
+      <p>Tapa blanda</p>
+      <p>9788466335362</p>
+      <p>2016</p>
+      <p>ES</p>
+      <p>Noemí Sobregués Arias</p>
+    </div>
+
+    <div class="caracteristicas">
+      <p>Fecha de lanzamiento:</p>
+      <p>Alto: </p>
+      <p>Ancho: </p>
+      <p>Grueso: </p>
+      <p>Peso: </p>
+      <p>Colección: </p>
+      <p>Número: </p>
+    </div>
+
+    <div class="subdiv">
+      <p>07/07/2016</p>
+      <p>19 cm</p>
+      <p>12,6 cm</p>
+      <p>1,7 cm</p>
+      <p>215 gr</p>
+      <p>BEST SELLER</p>
+      <p>026200</p>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="line"></div>
+    <div class="centered-word">Escrito por...</div>
+    <div class="line"></div>
+  </div>
+
+  <app-author-details></app-author-details>
+
+  <div class="container">
+    <div class="line"></div>
+    <div class="centered-word">Opiniones sobre BAJO LA MISMA ESTRELLA</div>
+    <div class="line"></div>
+  </div>
+
+  <div class="opiniones">
+    <div class="puntuacion-con-estrellas">
+      <p class="puntuacion-circulo">4,2</p>
+      <div class="estrellas-con-opiniones-column">
+        <div id="rating-opiniones" class="rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <p class="nOpiniones" style="font-size: 15px">135 opiniones</p>
+      </div>
+    </div>
+    <p style="font-size: 18px; margin: 5px">¿Que te ha parecido?</p>
+    <button id="boton-opinion" class="boton-generico"> deja tu opinion</button>
+  </div>
+
+  <div class="cajon-comentarios">
+    <img class="profile-picture" src="https://ih1.redbubble.net/image.3092348941.4978/st,small,845x845-pad,1000x1000,f8f8f8.jpg" alt="profile picture">
+    <div class="comentario">
+      <p class="username">Tobias</p>
+      <div id="rating-comentarios" class="rating">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <p style="margin: 0; color: #7B757E; padding-left: 5px;">6 de diciembre de 2024</p>
+      </div>
+      <p style="margin-top: 5px">Fue uno de los libros con los que me inicié en la lectura. Cada año me lo releo y de verdad que no me canso de el. Es una historia super dulce pero a al vez dura que te hace reflexionar y abrir los ojos frente a ciertas situaciones y creo que es un libro que todo el mundo debería leer.</p>
+    </div>
+  </div>
+
+  <div class="cajon-comentarios">
+    <img class="profile-picture" src="https://ih1.redbubble.net/image.3092348941.4978/st,small,845x845-pad,1000x1000,f8f8f8.jpg" alt="profile picture">
+    <div class="comentario">
+      <p class="username">Tobias</p>
+      <div id="rating-comentarios" class="rating">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <p style="margin: 0; color: #7B757E; padding-left: 5px;">6 de diciembre de 2024</p>
+      </div>
+      <p style="margin-top: 5px">Fue uno de los libros con los que me inicié en la lectura. Cada año me lo releo y de verdad que no me canso de el. Es una historia super dulce pero a al vez dura que te hace reflexionar y abrir los ojos frente a ciertas situaciones y creo que es un libro que todo el mundo debería leer.</p>
+    </div>
+  </div>
+
+  <div class="cajon-comentarios">
+    <img class="profile-picture" src="https://ih1.redbubble.net/image.3092348941.4978/st,small,845x845-pad,1000x1000,f8f8f8.jpg" alt="profile picture">
+    <div class="comentario">
+      <p class="username">Tobias</p>
+      <div id="rating-comentarios" class="rating">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <p style="margin: 0; color: #7B757E; padding-left: 5px;">6 de diciembre de 2024</p>
+      </div>
+      <p style="margin-top: 5px">Fue uno de los libros con los que me inicié en la lectura. Cada año me lo releo y de verdad que no me canso de el. Es una historia super dulce pero a al vez dura que te hace reflexionar y abrir los ojos frente a ciertas situaciones y creo que es un libro que todo el mundo debería leer.</p>
+    </div>
+  </div>
+
+  <div class="cajon-comentarios">
+    <img class="profile-picture" src="https://ih1.redbubble.net/image.3092348941.4978/st,small,845x845-pad,1000x1000,f8f8f8.jpg" alt="profile picture">
+    <div class="comentario">
+      <p class="username">Tobias</p>
+      <div id="rating-comentarios" class="rating">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <p style="margin: 0; color: #7B757E; padding-left: 5px;">6 de diciembre de 2024</p>
+      </div>
+      <p style="margin-top: 5px">Fue uno de los libros con los que me inicié en la lectura. Cada año me lo releo y de verdad que no me canso de el. Es una historia super dulce pero a al vez dura que te hace reflexionar y abrir los ojos frente a ciertas situaciones y creo que es un libro que todo el mundo debería leer.</p>
+    </div>
+  </div>
+
+  <button class="boton-generico" style="width: 100%">Ver todos los comentarios</button>
+
+  <div style="height: 30px;"></div>
+
+</body>
+
